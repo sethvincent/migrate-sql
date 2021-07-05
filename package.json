@@ -1,0 +1,39 @@
+{
+  "name": "migrate-sql",
+  "version": "0.0.0",
+  "description": "sql migrations",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "standard",
+    "lintfix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethvincent/migrate-sql.git"
+  },
+  "keywords": [
+    "migrations",
+    "sql",
+    "sqlite",
+    "postgresql",
+    "postgres"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethvincent/migrate-sql/issues"
+  },
+  "homepage": "https://github.com/sethvincent/migrate-sql#readme",
+  "devDependencies": {
+    "better-sqlite3": "^7.4.1",
+    "postgres": "^1.0.2",
+    "standard": "^16.0.3",
+    "uvu": "^0.5.1"
+  },
+  "dependencies": {
+    "dedent": "^0.7.0",
+    "desm": "^1.1.0",
+    "mri": "^1.1.6"
+  }
+}
